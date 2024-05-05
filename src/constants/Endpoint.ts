@@ -1,1 +1,1 @@
-export const URL_HOST = 'http://localhost:3000'
+export const URL_HOST = process.env.URL_HOST ?? 'http://localhost:3000'
